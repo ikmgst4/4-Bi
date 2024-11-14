@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo da Memória</h1>
+        <p>Teste sua memória e tente completar o jogo no menor tempo possível!</p>
+        <div id="game-info">
+            <span>Movimentos: <span id="moves">0</span></span>
+            <span>Tempo: <span id="timer">00:00</span></span>
+        </div>
+    </header>
+
+    <main>
+        <section id="game-board" class="game-board">
+            <!-- Cartões serão gerados dinamicamente aqui -->
+        </section>
+        <button id="restart" class="btn">Reiniciar Jogo</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jogo da Memória</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
